@@ -12,5 +12,8 @@ namespace TechnologyEditor
         //Название следующей технологии
         private string techName;
         private float researchCoeff;
+
+        public string TechName { get => techName; set => techName = value; }
+        public float ResearchCoeff { get => researchCoeff; set => researchCoeff = value; }
     }
 }
