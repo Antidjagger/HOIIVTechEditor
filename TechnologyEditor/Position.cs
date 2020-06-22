@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace TechnologyEditor
 {
-    class Modifiers
+    //Класс для позиционирования иконки технологий на дереве
+    class Position
     {
-        public Dictionary<long, string> modifiers;
-        Modifiers()
-        {
-
-        }
+        public int x, y;
     }
 }

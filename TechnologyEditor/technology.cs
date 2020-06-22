@@ -22,7 +22,7 @@ namespace TechnologyEditor
         private string []enable_equipments;
         //Если открывает юнит
         private bool isEnableSubunits;
-        //Список открываемых юнитов
+        //Список открываемых юнитовыва
         private string enable_subunits;
         //Стоимость исследования
         private float ResearchCost;
@@ -40,14 +40,7 @@ namespace TechnologyEditor
         private Position onTreePos;
     }
 
-    class Leads_to_tech
-    {
-        private string techName;
-        private float researchCoeff;
-    }
+    
 
-    class Position
-    {
-        public int x, y;
-    }
+    
 }
