@@ -18,7 +18,7 @@ namespace TechnologyEditor
         private bool isEnableBuildings;
         //Если открывает экипировку
         private bool isEnableEquipment;
-        //Список открываемой экипировки
+        //Список открываемой экипировки 
         private string []enable_equipments;
         //Если открывает юнит
         private bool isEnableSubunits;
